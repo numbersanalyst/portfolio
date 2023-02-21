@@ -7,6 +7,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    margin-bottom: 30px;
     max-width: 960px;
     padding: 10px 60px;
     box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.20);
@@ -14,10 +15,11 @@ main {
 
 section {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .rounded {
-    border-radius: 10%;
+    border-radius: 2px;
     object-fit: cover;
     object-position: center;
 }
@@ -38,8 +40,21 @@ section {
 .link-img {
     height: 40px;
     width: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 5px;
+    transition: margin 0.15s, height 0.15s, width 0.15s;
+    vertical-align: middle;
+}
+
+.link-img:hover {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 50px;
+    width: 50px;
 }
 
 .skills:not(:last-child) {
@@ -48,7 +63,7 @@ section {
 
 .skill-details {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     margin-bottom: 2px;
 }
 
@@ -98,9 +113,14 @@ section {
     max-width: 33%;
     height: 350px;
     background-color: whitesmoke;
-    border-radius: 20px;
+    border-radius: 2px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: black;
 }
 
 .project-img {
@@ -115,6 +135,8 @@ section {
 footer hr {
     border: 1px dashed gray;
 }
+
+/* code responsible for responsiveness */
 
 @media screen and (max-width: 900px) {
     main {
