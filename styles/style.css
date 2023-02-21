@@ -1,0 +1,151 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    max-width: 960px;
+    padding: 10px 60px;
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.20);
+}
+
+section {
+    margin-top: 50px;
+}
+
+.rounded {
+    border-radius: 10%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.circle {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.avatar {
+    margin-top: 40px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 2px 4px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.link-img {
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.skills:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.skill-details {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 2px;
+}
+
+.bar {
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.bar div {
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    border-radius: 12px;
+    height: 5px;
+}
+
+.php-bar {
+    width: 95%;
+}
+
+.mysql-bar {
+    width: 75%;
+}
+
+.js-bar {
+    width: 80%;
+}
+
+.html-bar {
+    width: 90%;
+}
+
+.css-bar {
+    width: 65%;
+}
+
+.cpp-bar {
+    width: 60%;
+}
+
+.py-bar {
+    width: 65%;
+}
+
+.project {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 33%;
+    height: 350px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-img {
+    height: 200px;
+    width: 100%;
+}
+
+.project-description {
+    padding: 5px 40px;
+}
+
+footer hr {
+    border: 1px dashed gray;
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        padding: 10px 20px;
+        box-shadow: none;
+    }
+
+    .project {
+        display: block;
+        max-width: 100%;
+        height: 250px;
+    }
+
+    .project-img {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    header {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .link-img {
+        height: 35px;
+        width: 35px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}
