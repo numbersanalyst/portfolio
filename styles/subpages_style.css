@@ -42,3 +42,7 @@ section {
     height: 100px;
     width: 100%;
 }
+
+footer hr {
+    border: 1px dashed gray;
+}
