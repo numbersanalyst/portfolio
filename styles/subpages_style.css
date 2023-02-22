@@ -18,6 +18,15 @@ section {
     margin-bottom: 50px;
 }
 
+.btn-back {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
 .project-img {
     height: 100px;
     width: 100%;
