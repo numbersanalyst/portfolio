@@ -33,6 +33,8 @@ section {
 }
 
 .project-img {
+    object-fit: cover;
+    object-position: center;
     height: 100px;
     width: 100%;
 }
