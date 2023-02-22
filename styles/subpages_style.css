@@ -23,6 +23,7 @@ section {
 }
 
 .btn-back {
+    display: block;
     width: 100%;
     background-color: black;
     color: white;
